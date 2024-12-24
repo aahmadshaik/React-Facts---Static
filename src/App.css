@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+@media (max-width: 768px) {
+  #root {
+    margin: 0 auto;
+    max-width: 100%; /* Make it take the full width of the screen */
+    padding: 5rem; /* Reduce padding for smaller screens */
+  }
+}
