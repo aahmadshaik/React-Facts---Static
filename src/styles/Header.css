@@ -1,0 +1,36 @@
+nav {
+  height: 91px;
+  width: 550px;
+
+  align-content: center;
+  background-color: #21222a;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
+  /* width: 158px; */
+  /* height: 28.93px; */
+  /* margin-top: 31px; */
+  margin-left: 26px;
+}
+nav img {
+  margin-top: 20px;
+  justify-content: center;
+  width: 27.69px;
+  height: 24.5px;
+  object-fit: contain;
+  color: #00d8ff;
+}
+nav h1 {
+  font-family: "Inter", sans-serif;
+  width: 122.39px;
+  height: 22.25px;
+  font-weight: 700;
+  font-size: 22.25px;
+  line-height: 26.93px;
+  letter-spacing: -5%;
+  color: #61dafb;
+}

@@ -1,0 +1,79 @@
+.data-container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 550px;
+  height: 459px;
+  background-color: #282d35;
+  position: relative;
+}
+
+.react-logo {
+  /* display: flex; */
+  /* display: flex; */
+  /* align-items: right; */
+  /* justify-content: center; */
+  /* float: right; */
+  /* width: 251.77px; */
+  height: 263px;
+  color: #33373e;
+  object-fit: contain;
+}
+
+.logo {
+  /* padding: 80px 0; */
+  position: absolute;
+  top: 50%;
+  left: 99.9%;
+  transform: translate(-50%, -50%);
+  /* border: 2px solid red; */
+  /* justify-content: center; */
+  align-items: center;
+  /* justify-content: center; */
+  display: flex;
+  height: 263px;
+  width: 263px;
+  /* width: min-content; */
+  right: 0;
+}
+.data {
+  padding: 0;
+  /* border: 2px solid rgb(0, 255, 60); */
+  z-index: 2000;
+  /* display: flex; */
+  /* justify-content: start; */
+  /* align-items: start; */
+  /* flex-direction: column; */
+}
+.data h1 {
+  /* width: 424px; */
+  /* height: 41px; */
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47.27px;
+  letter-spacing: -5%;
+  color: #ffffff;
+
+  margin: 40px 0 50px 20px;
+}
+.data ul {
+  list-style-type: disc;
+  /* padding: 10px; */
+}
+ul li::marker {
+  color: #61dafb;
+  font-size: 20px;
+}
+.data li {
+  margin-left: 30px;
+  text-align: left;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #ffffff;
+  width: 350px;
+  /* list-style: none; */
+}
