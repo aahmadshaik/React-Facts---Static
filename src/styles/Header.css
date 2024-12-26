@@ -17,7 +17,7 @@ nav {
   /* width: 158px; */
   /* height: 28.93px; */
   /* margin-top: 31px; */
-  margin-left: 26px;
+  margin-left: 15px;
 }
 nav img {
   /* margin-top: 20px; */
@@ -28,9 +28,9 @@ nav img {
 }
 nav h1 {
   font-family: "Inter", sans-serif;
-  width: 122.39px;
-  height: 22.25px;
+
   font-weight: 700;
+  text-align: left;
   font-size: 22.25px;
   line-height: 26.93px;
   letter-spacing: -5%;
