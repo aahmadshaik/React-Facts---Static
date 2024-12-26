@@ -1,5 +1,5 @@
 import "../styles/Content.css";
-import reactLogo from "../assets/reactjs-icon 2.png";
+
 const Content = () => {
   return (
     <div className="data-container">
@@ -15,9 +15,6 @@ const Content = () => {
 
           <li>Power thousands of enterprise apps, including mobile apps</li>
         </ul>
-      </div>
-      <div className="logo">
-        <img className="react-logo" src={reactLogo}></img>
       </div>
     </div>
   );

@@ -1,13 +1,16 @@
 nav {
   height: 91px;
-  width: 550px;
-
+  width: 100%;
   align-content: center;
+  /* justify-content: center; */
+
   background-color: #21222a;
 }
 
 .content {
   display: flex;
+  /* justify-content: center; */
+  column-gap: 10px;
   flex-direction: row;
   /* display: flex;
   flex-direction: row; */
@@ -17,12 +20,11 @@ nav {
   margin-left: 26px;
 }
 nav img {
-  margin-top: 20px;
-  justify-content: center;
-  width: 27.69px;
-  height: 24.5px;
+  /* margin-top: 20px; */
+  width: 50px;
+  height: auto;
+  /* height: 24.5px; */
   object-fit: contain;
-  color: #00d8ff;
 }
 nav h1 {
   font-family: "Inter", sans-serif;
@@ -33,4 +35,47 @@ nav h1 {
   line-height: 26.93px;
   letter-spacing: -5%;
   color: #61dafb;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Tablet and smaller screens */
+  nav {
+    height: auto; /* Allows height to adjust based on content */
+    flex-direction: column; /* Stacks items vertically */
+    padding: 10px;
+  }
+
+  .content {
+    justify-content: start; /* Centers content */
+    margin-left: 10px; /* Resets margin */
+  }
+
+  nav h1 {
+    font-size: 18px; /* Adjusts font size for smaller screens */
+    text-align: center; /* Centers text */
+  }
+
+  nav img {
+    width: 40px; /* Smaller image for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile screens */
+  nav {
+    padding: 5px;
+  }
+
+  nav h1 {
+    font-size: 16px;
+  }
+
+  nav img {
+    width: 35px;
+  }
+
+  .content {
+    gap: 5px; /* Reduces gap for smaller screens */
+  }
 }
